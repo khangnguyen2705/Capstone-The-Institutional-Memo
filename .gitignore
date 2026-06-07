@@ -1,0 +1,22 @@
+# ── Data: course-provided raw datasets and all derived market data (NEVER push) ──
+*.zip
+*.zip.zip
+*.parquet
+*.csv
+data/
+
+# Rendered intermediate
+INVESTMENT_MEMO.html
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
